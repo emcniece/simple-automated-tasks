@@ -43,7 +43,7 @@ SITES=(
 )
 ```
 
-Add a cronjob for each individual task `crontab -e`. The following example will run WordPress cron every 5 minutes, perform backups daily at 5AM, update file permissions daily at 6AM and verify checksums at 7AM:
+Add a cronjob for each individual task `crontab -e`. Be sure to replace `/home/a5hley/.tasks` with the location of your own install directory. The following example will run WordPress cron every 5 minutes, perform backups daily at 5AM, update file permissions daily at 6AM and verify checksums at 7AM:
 
 ```
 */5 * * * * cd /home/a5hley/.tasks; bash cron.sh >/dev/null 2>&1
