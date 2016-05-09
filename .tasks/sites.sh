@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 # Directory where individual site directories reside
-ROOT=/home/a5hley
-#TASKDIR=/home/a5hley/.tasks
+ROOT=/var/www
 TASKDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Taks to be performed on the following sites
